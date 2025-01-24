@@ -20,9 +20,6 @@
             <a href="#directions">Directions</a>
             <a href="#contact">Contact</a>
             <a href="#chain-merch">Chain Merch</a>
-            <img placeholder="twitter">
-            <img placeholder="facebook">
-            <img placeholder="instagram">
         </nav>
     </header>
 
@@ -42,13 +39,13 @@
             </div>
         </section>
 
-        <section class="main upcoming-events">
+        <section class="main upcoming-events" id="events">
             <h1>UPCOMING EVENTS</h1>
 
             <div class="event-1">
                 <p id="date">January 2025</p>
                 <img src="./images/Frail.png" placeholder="Frail">
-                <p id="description">Frail Benefit Show</p>
+                <p id="description">Frail Benefit</p>
                 <p id="artists">Traitors, Make Me</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
@@ -58,10 +55,10 @@
             </div>
 
             <div class="event-2">
-                <p id="date">January 2025</p>
+                <p id="date">January 4, 2025</p>
                 <img src="./images/Hranni.jpg" placeholder="Heranni">
-                <p id="description">Frail Benefit Show</p>
-                <p id="artists">Traitors, Make Me</p>
+                <p id="description">Riffs of Rage</p>
+                <p id="artists">Hranni</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
                 <div class="location"></div>
@@ -70,10 +67,10 @@
             </div>
 
             <div class="event-3">
-                <p id="date">January 2025</p>
+                <p id="date">January 10, 2025</p>
                 <img src="./images/light_cross.png" placeholder="light_cross">
-                <p id="description">Frail Benefit Show</p>
-                <p id="artists">Traitors, Make Me</p>
+                <p id="description">Rising From the Ashes</p>
+                <p id="artists">Knocked Loose</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
                 <div class="location"></div>
@@ -82,46 +79,46 @@
             </div>
 
             <div class="event-4">
-                <p id="date">January 2025</p>
+                <p id="date">January 11, 2025</p>
                 <img src="./images/make_me.jpg" placeholder="make_me">
-                <p id="description">Frail Benefit Show</p>
-                <p id="artists">Traitors, Make Me</p>
+                <p id="description">Midnight Slaughter</p>
+                <p id="artists">Make Me</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
                 <div class="location"></div>
-                <button class="buy-tickets">Buy Tickets</button>
+                <button id="buy-tickets">Buy Tickets</button>
                 <button class="more-info">More Info</button>
             </div>
 
             <div class="event-5">
-                <p id="date">January 2025</p>
+                <p id="date">January 17,2025</p>
                 <img src="./images/metal_band.jpg" placeholder="metal_band">
-                <p id="description">Frail Benefit Show</p>
-                <p id="artists">Traitors, Make Me</p>
+                <p id="description">Metal Mayhem</p>
+                <p id="artists">Metal Band</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
                 <div class="location"></div>
-                <button class="buy-tickets">Buy Tickets</button>
+                <button id="buy-tickets">Buy Tickets</button>
                 <button class="more-info">More Info</button>
             </div>
 
             <div class="event-6">
-                <p id="date">January 2025</p>
+                <p id="date">January 18, 2025</p>
                 <img src="./images/sevendust.jpeg" placeholder="sevendust">
-                <p id="description">Frail Benefit Show</p>
-                <p id="artists">Traitors, Make Me</p>
+                <p id="description">Chain to the Pit</p>
+                <p id="artists">Sevendust</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
                 <div class="location"></div>
-                <button class="buy-tickets">Buy Tickets</button>
+                <button id="buy-tickets" onclick="redirect()">Buy Tickets</button>
                 <button class="more-info">More Info</button>
             </div>
 
             <div class="event-7">
-                <p id="date">January 2025</p>
+                <p id="date">January 24, 2025</p>
                 <img src="./images/Silence.png" placeholder="Silence">
-                <p id="description">Frail Benefit Show</p>
-                <p id="artists">Traitors, Make Me</p>
+                <p id="description">Rein of Ruin</p>
+                <p id="artists">Heavy Hitter</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
                 <div class="location"></div>
@@ -130,10 +127,10 @@
             </div>
 
             <div class="event-8">
-                <p id="date">January 2025</p>
+                <p id="date">January 25, 2025</p>
                 <img src="./images/The Browning.png" placeholder="The Browning">
-                <p id="description">Frail Benefit Show</p>
-                <p id="artists">Traitors, Make Me</p>
+                <p id="description">Drop Out Kings</p>
+                <p id="artists">The Browning</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
                 <div class="location"></div>
@@ -142,10 +139,10 @@
             </div>
 
             <div class="event-9">
-                <p id="date">January 2025</p>
+                <p id="date">January 31, 2025</p>
                 <img src="./images/traitors.png" placeholder="traitors">
-                <p id="description">Frail Benefit Show</p>
-                <p id="artists">Traitors, Make Me</p>
+                <p id="description">Fallen Betrayal</p>
+                <p id="artists">Traitors</p>
                 <img placeholder="clock emoji"/>
                 <img placeholder="ticket emoji"/>
                 <div class="location"></div>
@@ -156,46 +153,38 @@
 
         <section class="main just-announced">
             <div id="event-1">
-                <p id="date">SAT, FEB 15</p>
-                <p id="event-name">[Event Name]</p>
-                <p id="artists">[Artist Name]</p>
+                <p id="date">SAT, FEB 1</p>
+                <p id="event-name">Neon Slumber</p>
+                <p id="artists">Velvet</p>
                 <div class="location"></div>
-                <button class="tickets">Tickets</button>
+                <button class="tickets">COMING NEXT MONTH</button>
             </div>
 
             <div id="event-2">
-                <p id="date">SAT, FEB 15</p>
-                <p id="event-name">[Event Name]</p>
-                <p id="artists">[Artist Name]</p>
+                <p id="date">SUN, FEB 2</p>
+                <p id="event-name">Bassquake</p>
+                <p id="artists">Juno</p>
                 <div class="location"></div>
-                <button class="tickets">Tickets</button>
+                <button class="tickets">COMING NEXT MONTH</button>
             </div>
 
             <div id="event-3">
-                <p id="date">SAT, FEB 15</p>
-                <p id="event-name">[Event Name]</p>
-                <p id="artists">[Artist Name]</p>
+                <p id="date">FRI, FEB 7</p>
+                <p id="event-name">Elements of Sound</p>
+                <p id="artists">Viro</p>
                 <div class="location"></div>
-                <button class="tickets">Tickets</button>
+                <button class="tickets">COMING NEXT MONTH</button>
             </div>
 
             <div id="event-4">
-                <p id="date">SAT, FEB 15</p>
-                <p id="event-name">[Event Name]</p>
-                <p id="artists">[Artist Name]</p>
+                <p id="date">SAT, FEB 8</p>
+                <p id="event-name">Vibee Sync</p>
+                <p id="artists">Lumo</p>
                 <div class="location"></div>
-                <button class="tickets">Tickets</button>
-            </div>
-
-            <div id="event-5">
-                <p id="date">SAT, FEB 15</p>
-                <p id="event-name">[Event Name]</p>
-                <p id="artists">[Artist Name]</p>
-                <div class="location"></div>
-                <button class="tickets">Tickets</button>
+                <button class="tickets">COMING NEXT MONTH</button>
             </div>
         </section>
     </main>
-    <script src="./script.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 </html> 
