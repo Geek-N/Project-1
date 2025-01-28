@@ -1,10 +1,6 @@
-const buttonText = document.getElementById("buy-tickets");
 
-
-function redirect() {
-    window.location.assign("new.html")
+function redirect(item) {   
+    console.log(item.value)
+    console.log(item + ".html")
+    window.location.href= item.value + ".html"
 }
-
-buttonText.addEventListener("click", redirect);
-
-
