@@ -28,7 +28,9 @@ Bar & Lounge Areas: Relax and unwind with drinks and snacks before or after the 
 
 
 Join the PULSE Community
-We’re always looking for passionate fans, artists, and partners to join the PULSE community. Whether you’re looking to perform, volunteer, or simply enjoy a great show, there’s a place for you here.
+We’re always looking for passionate fans, artists, and partners to join the PULSE community. Whether you’re looking to perform, volunteer, or simply enjoy a great show, there’s a place for you here. 
+
+PULSE Event Center App was made using various formats including HTML,CSS and JAVASCRIPT! This starter page allows you to navigate to the correct areas using the EVENT,CONTACT and DIRECTIONS button! You can also navigate through the BUY TICKETS option to go to another screen to buy up to 10 tickets to an upcoming show!
 
 
 Thank you for choosing PULSE Event Center—where music lives, breathes, and pulses with every beat. 
